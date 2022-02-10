@@ -1,7 +1,7 @@
 # Use Tensorflow on Aristotle 
 
 ## Prerequisite: 
-[aristotle_moduloes.md load default modules on aristotle][(https://github.com/materials-discovery/Linux_tutorials_howto/aristotle_moduloes.md)
+[aristotle_moduloes.md load default modules on aristotle](https://github.com/materials-discovery/Linux_tutorials_howto/aristotle_moduloes.md)
 
 Consult first the following [official UCL reference for Myriad](https://www.rc.ucl.ac.uk/docs/Clusters/Myriad/#tensorflow)
 
