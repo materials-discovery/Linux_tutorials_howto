@@ -43,3 +43,24 @@ module load mpi/openmpi/4.0.5/gnu-10.2.0
 module load python3/3.9-gnu-10.2.0-aristotle
 module load lammps/29sep21up2/basic/gnu-10.2.0-aristotle
 ```
+
+# Running QuantumEspresso in Aristotle 
+To run quantum Espresso you need to laod the following modules, note that these are done once you log into aristotle. 
+```
+module load gcc-libs/4.9.2
+module load compilers/intel/2018/update3
+module load mpi/intel/2018/update3
+module load xorg-utils/X11R7.7
+module load gnuplot/5.0.1
+module load quantum-espresso/6.5-impi/thermo_pw-1.2.1/intel-2018
+```
+
+Once you load the modules, the pw.x executable (plane wave code) should be in your path. you can download the quantum espresso package directly to your acount on Aristotle either from the web site (requires registration now it seems: https://www.quantum-espresso.org/) or from the git repository, you can clone the enitre latest release like so:
+
+```
+git clone https://github.com/QEF/q-e.git
+```
+
+or just use the web browser to browse into this folder and then download the examples folder: `https://github.com/QEF/q-e/tree/master/PW/examples` 
+
+try to go into exampl01 and run the `run_example' script file... 
