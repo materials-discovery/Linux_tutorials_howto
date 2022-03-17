@@ -26,3 +26,20 @@ Currently Loaded Modulefiles:
  11) nano/2.4.2                    22) default-modules/2018
 ```
 
+
+# Loading lammps on Aristotle
+To run lammps on Aristotle we need to load these special modules: 
+```
+module load default-modules
+module -f unload compilers mpi gcc-libs
+module load beta-modules
+module use --append /home/ccaabaa/lib/modulefiles/development /home/ccaabaa/lib/modulefiles/bundles /home/ccaabaa/lib/modulefiles/beta
+module load gcc-libs/10.2.0
+module load compilers/gnu/10.2.0
+module load numactl/2.0.12
+module load binutils/2.36.1/gnu-10.2.0
+module load ucx/1.9.0/gnu-10.2.0
+module load mpi/openmpi/4.0.5/gnu-10.2.0
+module load python3/3.9-gnu-10.2.0-aristotle
+module load lammps/29sep21up2/basic/gnu-10.2.0-aristotle
+```
