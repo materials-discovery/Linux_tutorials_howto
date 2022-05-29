@@ -1,4 +1,6 @@
-# loading the standard modules 
+# 
+
+# Loading standard modules into the Aristotle environemnt 
 
 In order to make life easier, load the following default modules: 
 
